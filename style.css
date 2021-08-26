@@ -1,0 +1,274 @@
+.full-website{
+    width: 1532px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+/* header start */
+.header{
+    background: #292a2b;
+    padding: 10px;
+}
+.header-left img{
+    width: 85px;
+    height: auto;
+}
+.header-right ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    display: inline-block;
+    color: #ddd;
+    padding: 11px 20px;
+    text-decoration: none;
+    line-height: 31px;
+    font-size: 20px;
+    transition: .3s;
+}
+.header-right ul li a:hover{
+    color: #fff;
+    text-decoration:underline;
+}
+
+/* dropdwon menu start */
+.header-right ul li{
+    position: relative;
+}
+.header-right ul li ul {
+    list-style: none;
+    position: absolute;
+    top: 124%;
+    left: -22px;
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    border-top: 5px solid #fff;
+}
+
+.header-right ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    text-align: left;
+
+}
+.header-right ul li ul li a{
+    display: inline-block;
+    padding: 8px 31px;
+    padding-right: 101px;
+    transition: .3s;
+}
+.header-right ul li ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* banner :start */
+.banner{
+    background: url(./a0c6042d4612d7adf44692fffac7e082.jpg) no-repeat top center;
+    background-size: cover;
+    height: 650px;
+}
+.banner h2{
+    margin-top: 214px;
+    font-weight: bold;
+}
+.banner .button-1 {
+    background: #000;
+    width: 128px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+.banner .button-2{
+    background: #fff;
+    width: 128px;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.banner .button-1:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.banner .button-2:hover{
+    background: #000;
+    color: #fff;
+}
+
+/* about start */
+.about{
+    background: #87a471;
+}
+.about h1 {
+    border-bottom: 3px solid #ddd;
+    width: 214px;
+    margin: auto;
+    color: #ddd;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px;
+}
+.about .right img{
+    width: 313px;
+    height: auto;
+    margin-left: 40px;
+}
+
+/* Service start */
+.service{
+    background: #606a64;
+}
+.service .wrap-text {
+    box-sizing: border-box;
+    padding: 33px;
+    border-radius: 10px;
+}
+.service img{
+    width: 40px;
+}
+.service h1{
+    border-bottom: 3px solid #ddd;
+    width: 214px;
+    margin: auto;
+    color: #ddd;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px;
+
+}
+.service h2{
+    color: #fff;
+}
+.service .para{
+    color: #fff;
+    width: 662px;
+    margin: 17px auto;
+    padding-bottom: 40px;
+}
+
+/* service-2 start */
+.service-2{
+    background: #87a471;
+    color: #316a83;
+    font-weight: bold;
+}
+.service-2 .wrap-img{
+    border: 2px solid #fff;
+   
+}
+.service-2 .wrap-img img{
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+.service-2 .wrap-img, .img-1{
+    max-width: 100%;
+}
+
+.single-img img{
+    box-sizing: border-box;
+    width: 252px;
+}
+
+
+
+/* member-section start */
+.members{
+    background: #5b9776;
+}
+.members .border {
+    border-bottom: 3px solid #ddd;
+    width: 312px;
+    margin: auto;
+    color: #ddd;
+    font-weight: bold;
+    height: 3px;
+    background: #ddd;
+    margin-bottom: 65px;
+}
+
+.tem img{
+    margin: 10px;
+    width: 332px;
+}
+
+.icon-div{
+    margin: 10px;
+    text-align: center;
+}
+.icon-div a {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 37px;
+   text-decoration: none;
+   transition: .3s;
+   
+}
+.icon-div a:hover i{
+    color: #3F637B;
+    
+}
+
+/* .work-us */
+.work-us{
+    background-color: #606a64;
+    color: #fff;
+    text-align: center;
+}
+.work-us .wrap-text p{
+    width: 632px;
+    height: auto;
+    margin: auto;
+
+}
+.work-us .wrap-text .button{
+    background-color: #00bc9c;
+    width: 222px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.work-us .wrap-text .button h5{
+    padding: 10px 20px;
+    transition: .3s;
+   
+}
+
+.Work-us, .button h5:hover{
+    background-color: #3F637B;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* footer start */
+.footer{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.footer p{
+    padding: 20px;
+    margin-bottom: 0;
+}
